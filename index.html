@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Orguy: Add or Die</title>
+</head>
+<body>
+  <h1 id="title"><a class="orange">Orguy: </a><a class="green">Add </a><a class="white">or </a><a class="red">Die</a></h1>
+  <div class="container">
+    <div id="UI">
+      <div class="moneyLabel">
+        <p id="moneyLabel"></p>
+      </div>
+      <button id="start">start</button>
+      <button id="shopButton">SHOP</button>
+      <div id="shop">
+      </div>
+      <div id="question">
+        <div id="math">
+          <a id="mathProblem">test</a>
+        </div>
+        <input type="text" id="answerInput" placeholder="Enter the answer">
+        <button id="submit">Enter...</button>
+      </div>
+      <div class="center" id="center">
+        <div id="play">
+          <p class="invi">play</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="orguy">
+        <div id="orguyHP">0</div>
+      </div>
+
+      <div id="enemy">
+        <div id="enemyHP">0</div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="damageSound">
+    <source src="undertale-damage-taken.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="victory">
+    <source src="victory.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="defeat">
+    <source src="defeat.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
