@@ -1,0 +1,185 @@
+
+body {
+  background-image: url("bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-size: 2vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+body, button, input {
+  font-family: "Press Start 2P", monospace;
+}
+#orguy{
+  background: url("orguy.gif");
+  width: 30vw;
+  height: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 80vh;
+  margin-left: -88vw;
+}
+
+#enemy {
+  background: url("enemy.gif");
+  width: 30vw;
+  height: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 80vh;
+  margin-left: 30vw;
+}
+
+.container {
+  display: flex;
+}
+
+#start, #shopButton{
+  background-color: orange;
+  color: purple;
+  border: none;
+  border-radius: 5vh;
+  width: 20vw;
+  height: 5vh;
+  margin-left: 30vw;
+  margin-top: 1vh;
+  font-size: 1.75vh;
+}
+
+#orguyHP, #enemyHP {
+  background-color: green;
+  text-align: center;
+  width: 30vw;
+  height: 3vh;
+  border-radius: 3vh;
+  border: solid black 2px;
+  margin-bottom: 5vh;
+}
+
+#question, #shop{
+  width: 66vw;
+  height: 66vw;
+  margin-left: 23vw;
+  background: orange;
+  border: solid purple 2px;
+}
+
+#math {
+  margin-top: 1vh;
+  background: white;
+  width: 66vw;
+  height: 10vh;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+#answerInput {
+  border: none;
+  background-color: purple;
+  color: orange;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  width: 60vw;
+  height: 10vh;
+  font-size: 1.75vh;
+}
+
+/* Скрываем игровые элементы */
+#question, #orguy, #enemy {
+  display: none;
+}
+#submit {
+  border: none;
+  border-radius: 20px;
+  height: 5vh;
+  width: 60vw;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  font-size: 1.75vh
+}
+#submit:active {
+  background-color: purple;
+  color: white;
+}
+.item {
+  box-sizing: border-box;
+  width: 66vw;
+  height: 10vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: white;
+  border: 5px solid #7a2700;
+  font-size: 2vh;
+}
+.buy {
+  background-color: green;
+  color: white;
+  height: 3vh;
+  width: 10vw;
+  border: none;
+  border: solid black 2px !important;
+  font-size: 1vh;
+}
+.buy:active {
+  background-color: white;
+  color: green
+}
+.Owned {
+  background-color: red;
+  color: white;
+  height: 15px;
+  width: 45px;
+  border: none;
+  border: solid black 2px !important;
+  font-size: 10px;
+}
+.Owned:active {
+  background-color: white;
+  color: red
+}
+#moneyLabel {
+  text-align: center;
+}
+.orange {
+  color: orange
+}
+.green {
+  color: green
+}
+.white {
+  color: white
+}
+.red {
+  color: red
+}
+#title {
+  font-family: "Alfa Slab One", serif;
+  background-color: black;
+  font-size: 5vh
+}
+#play {
+  background: limegreen;
+  width: 66vw;
+  height: 35vw;
+  text-align: center;
+  border-radius: 10vw;
+  border: solid darkgreen 3vw;
+  font-size: 7vh;
+  margin: 0 auto;
+}
+.center {
+  width: 100vw;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#play:active {
+  background-color: black;
+  color: limegreen;
+}
